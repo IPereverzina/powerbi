@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSection8dc140cac7a95d01d72b",
+  "displayName": "Held Securities",
+  "displayOption": "FitToWidth",
+  "height": 1320,
+  "width": 2380,
+  "objects": {
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "202L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "b5c740a2e6d770c103c8",
+      "target": "e8a62f03e167cc4ffb3a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "33d8c8a760e0581a4020",
+      "target": "e8a62f03e167cc4ffb3a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "35d709ba029534a045ca",
+      "target": "e8a62f03e167cc4ffb3a",
+      "type": "NoFilter"
+    }
+  ]
+}

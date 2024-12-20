@@ -1,0 +1,224 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "9f04edb4326388476480",
+  "position": {
+    "x": 1646.808510638298,
+    "y": 202.12765957446808,
+    "z": 7000,
+    "height": 161,
+    "width": 1034,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_SECURITYID"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_SECURITYID",
+              "nativeQueryRef": "SM_SECURITYID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SC_SECMASTER_SECURITY"
+                    }
+                  },
+                  "Property": "SECURITYNAME"
+                }
+              },
+              "queryRef": "SC_SECMASTER_SECURITY.SECURITYNAME",
+              "nativeQueryRef": "SECURITYNAME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_ADRSECURITY"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_ADRSECURITY",
+              "nativeQueryRef": "SM_ADRSECURITY"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "LVTS_ADR_FLAG"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.LVTS_ADR_FLAG",
+              "nativeQueryRef": "LVTS_ADR_FLAG"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_LVTSID"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_LVTSID",
+              "nativeQueryRef": "SM_LVTSID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "LVTS_SECURITY_ID"
+                }
+              },
+              "queryRef": "CountNonNull(VINVESTSYSTEM_RECONC.LVTS_SECURITY_ID)",
+              "nativeQueryRef": "LVTS_SECURITY_ID"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "272.12486404843474D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SC_SECMASTER_SECURITY.SECURITYNAME"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ADR FLAG mismatch'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter6707dab44bad00d12a00",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "ADRSECURITYMATCHES"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VINVESTSYSTEM_RECONC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "v"
+                          }
+                        },
+                        "Property": "ADRSECURITYMATCHES"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "0D"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

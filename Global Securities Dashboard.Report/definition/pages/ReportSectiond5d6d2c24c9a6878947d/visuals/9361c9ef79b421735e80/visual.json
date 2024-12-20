@@ -1,0 +1,783 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "9361c9ef79b421735e80",
+  "position": {
+    "x": 1306.3829787234042,
+    "y": 393.61702127659578,
+    "z": 16000,
+    "height": 104.25531914893618,
+    "width": 97.872340425531917,
+    "tabOrder": 15000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "NumberOfSecurities"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.NumberOfSecurities",
+              "nativeQueryRef": "# Securities",
+              "displayName": "# Securities"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "VINVESTSYSTEM_RECONC"
+                  }
+                },
+                "Property": "NumberOfSecurities"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "35D"
+                }
+              }
+            },
+            "underline": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'SEDOL mismatch'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "3D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter9b3ec1565b77c8de8ec9",
+        "ordinal": 0,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "ApxId"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterd6ef3881dfbf7045c1f9",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Last Recommendation Of Current Analyst"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter2c762abfcf9b98a7874d",
+        "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "AxysId"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter26ccc1d531b48ebb0a66",
+        "ordinal": 3,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Current Lead Analyst"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter38f72f015f76b241907e",
+        "ordinal": 4,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "CUSIP"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter0311348c6fae44d156b9",
+        "ordinal": 5,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "FactSet Region Permanent ID"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter734c704f7908bbb695b5",
+        "ordinal": 6,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "FactSet Security Permanent ID"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter0438c1b386e2bb2169c0",
+        "ordinal": 7,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "Factset Ticker Exchange"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter1c2a66841d61b1947aa2",
+        "ordinal": 8,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "Factset Ticker Region"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterde08d07238ff97dc4e18",
+        "ordinal": 9,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "ISIN"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter6c84dd9e9e35ecf1b70e",
+        "ordinal": 10,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Issuer Report Name"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filtereacc3cb31db19b58a523",
+        "ordinal": 11,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Last Recommendation Of Current Analyst"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filteree5abe853f62982b8d1a",
+        "ordinal": 12,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Last Recommendation Of Current Analyst Date"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter2e83c21c4615195a7d46",
+        "ordinal": 13,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "Security Name"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter50006719584c93829989",
+        "ordinal": 14,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "SEDOL"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterc15f83553958832cc535",
+        "ordinal": 15,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Symbol"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter039938ffe2a900078caa",
+        "ordinal": 16,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "FactSet Issuer ID"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter8ca7c4f46f26c35fe4ab",
+        "ordinal": 17,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Market"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter59cd4692ddeef8175396",
+        "ordinal": 18,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "Country of Domicile"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterf612a26960223c2275bc",
+        "ordinal": 19,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "EMG Region"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterdf2350d99b54c58c3959",
+        "ordinal": 20,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "GG Region"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterf6b23dedb6d2bf0141b1",
+        "ordinal": 21,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "MSCI Country"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterb49b2f4f224e4733b58e",
+        "ordinal": 22,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Security"
+              }
+            },
+            "Property": "SecMaster ID"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterec2ef8f1a24374be5016",
+        "ordinal": 23,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "GICS Industry"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterfdaf56615823a75a9abf",
+        "ordinal": 24,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "GICS Industry Group"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterbff1e2744367b31a639b",
+        "ordinal": 25,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Issuer"
+              }
+            },
+            "Property": "Sands Industry"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter24bd34946c706d6b8ea6",
+        "ordinal": 26,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "SM_TICKER"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filterbe45ee95b74783593e0b",
+        "ordinal": 27,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "APX_TICKER"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter2578f0923333b8c6ddcd",
+        "ordinal": 28,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "LVTS_TICKER"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filtera2914034ee388b1977d2",
+        "ordinal": 29,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "SM_SEDOL"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter6cfada2132c080536387",
+        "ordinal": 30,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "LVTS_CUSTOM_SEDOL"
+          }
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter397f705620040a86c04e",
+        "ordinal": 31,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "SEDOLMATCHES"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VINVESTSYSTEM_RECONC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "v"
+                          }
+                        },
+                        "Property": "SEDOLMATCHES"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "0D"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter6b1af4fad0a8d5eb046d",
+        "ordinal": 32,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "APX_SEDOL"
+          }
+        },
+        "howCreated": "User"
+      }
+    ],
+    "filterSortOrder": "Custom"
+  }
+}

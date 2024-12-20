@@ -1,0 +1,235 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "bb3b3af829ddcb45bec2",
+  "position": {
+    "x": 1644.6808510638298,
+    "y": 542.55319148936178,
+    "z": 10000,
+    "height": 161,
+    "width": 1036,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_COUNTRYISSUE"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_COUNTRYISSUE",
+              "nativeQueryRef": "SM_COUNTRYISSUE"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "APX_COUNTRYISSUE"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.APX_COUNTRYISSUE",
+              "nativeQueryRef": "APX_COUNTRYISSUE"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "LVTS_COUNTRYISSUE"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.LVTS_COUNTRYISSUE",
+              "nativeQueryRef": "LVTS_COUNTRYISSUE"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_SECURITYID"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_SECURITYID",
+              "nativeQueryRef": "SM_SECURITYID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SC_SECMASTER_SECURITY"
+                    }
+                  },
+                  "Property": "SECURITYNAME"
+                }
+              },
+              "queryRef": "SC_SECMASTER_SECURITY.SECURITYNAME",
+              "nativeQueryRef": "SECURITYNAME"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SC_SECMASTER_SECURITY"
+                  }
+                },
+                "Property": "SECURITYNAME"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#252423'"
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'COUNTRY ISSUE mismatch'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter3ba4c2c7c35308ad70a3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "COUNTRYISSUEMATCHES"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VINVESTSYSTEM_RECONC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "v"
+                          }
+                        },
+                        "Property": "COUNTRYISSUEMATCHES"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "0D"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

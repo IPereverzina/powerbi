@@ -1,0 +1,68 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "009d8fb136b2f0cfa125",
+  "position": {
+    "x": 439.1272357286868,
+    "y": 67.960167434201537,
+    "z": 3000,
+    "height": 104.55410374492543,
+    "width": 297.97919567303751,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "CORPACTION_TYPE_NAME"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.CORPACTION_TYPE_NAME",
+              "nativeQueryRef": "CorpAction Type",
+              "active": true,
+              "displayName": "CorpAction Type"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "475f362e254689e94a1b",
+  "position": {
+    "x": 32,
+    "y": 1226,
+    "z": 12000,
+    "height": 330,
+    "width": 1120,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_SECURITYID"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_SECURITYID",
+              "nativeQueryRef": "SM_SECURITYID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "SM_GICSCLASS2NAME"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.SM_GICSCLASS2NAME",
+              "nativeQueryRef": "SM_GICSCLASS2NAME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VINVESTSYSTEM_RECONC"
+                    }
+                  },
+                  "Property": "APX_INDUSTRYGROUPNAME"
+                }
+              },
+              "queryRef": "VINVESTSYSTEM_RECONC.APX_INDUSTRYGROUPNAME",
+              "nativeQueryRef": "APX_INDUSTRYGROUPNAME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SC_SECMASTER_SECURITY"
+                    }
+                  },
+                  "Property": "SECURITYNAME"
+                }
+              },
+              "queryRef": "SC_SECMASTER_SECURITY.SECURITYNAME",
+              "nativeQueryRef": "SECURITYNAME"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SC_SECMASTER_SECURITY"
+                  }
+                },
+                "Property": "SECURITYNAME"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "310.82406537030295D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VINVESTSYSTEM_RECONC.SM_GICSCLASS2NAME"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "302.32910161879D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VINVESTSYSTEM_RECONC.APX_INDUSTRYGROUPNAME"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "380.73838195984536D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SC_SECMASTER_SECURITY.SECURITYNAME"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'INDUSTRY GROUP NAME mismatch'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filterf07511f3796b104cae87",
+        "ordinal": 0,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "APX_INDUSTRYGROUPNAME"
+          }
+        }
+      },
+      {
+        "name": "Filterd4174b30b1bda2b1a01a",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "INDUSTRYGROUPMATCHES"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VINVESTSYSTEM_RECONC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "v"
+                          }
+                        },
+                        "Property": "INDUSTRYGROUPMATCHES"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "0D"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "Filter2652cee917e39d490300",
+        "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SC_SECMASTER_SECURITY"
+              }
+            },
+            "Property": "SECURITYNAME"
+          }
+        }
+      },
+      {
+        "name": "Filter0d40a340da386bd2463d",
+        "ordinal": 3,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "APX_SECTYPECODE"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VINVESTSYSTEM_RECONC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "v"
+                              }
+                            },
+                            "Property": "APX_SECTYPECODE"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'oaus'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Filter79c488f4040b8c40c4d5",
+        "ordinal": 4,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "SM_GICSCLASS2NAME"
+          }
+        }
+      },
+      {
+        "name": "Filtereb2c2bfc584d9b230d45",
+        "ordinal": 5,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VINVESTSYSTEM_RECONC"
+              }
+            },
+            "Property": "SM_SECURITYID"
+          }
+        }
+      }
+    ],
+    "filterSortOrder": "Custom"
+  }
+}

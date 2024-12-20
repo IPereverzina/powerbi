@@ -1,0 +1,216 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1285.12614643339,
+        "y": 449.79415125168651
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 400.49817068054062,
+            "y": 2.64724953656696
+          },
+          "nodeIndex": "IVP_HOLDINGS",
+          "nodeLineageTag": "da19b311-927a-4ba2-b4ff-012250b31124",
+          "size": {
+            "height": 403.74305613828983,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 753.2,
+            "y": 0
+          },
+          "nodeIndex": "NEW_INITIATIONS",
+          "nodeLineageTag": "3593ee1b-366d-4ed1-962a-5be5ab8fcb3e",
+          "size": {
+            "height": 318,
+            "width": 234
+          },
+          "zIndex": 14
+        },
+        {
+          "location": {
+            "x": 353.92957387521346,
+            "y": 518.919857586904
+          },
+          "nodeIndex": "VCORPORATE_ACTIONS",
+          "nodeLineageTag": "b14f7c14-2f5b-461c-af89-2fd0e49fd279",
+          "size": {
+            "height": 813.97837213913647,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 810.55941436104513,
+            "y": 558.919857586904
+          },
+          "nodeIndex": "SC_APX_2_SECURITY",
+          "nodeLineageTag": "662628d2-228b-45cc-9c4f-3507f7776ea0",
+          "size": {
+            "height": 609.2783505154639,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1193.9622174380256,
+            "y": 95.185988284974485
+          },
+          "nodeIndex": "SC_LVTS_SECURITY",
+          "nodeLineageTag": "2d6cd3fe-7cf0-4827-a4d1-360edc7bd847",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 1657.3748020222556,
+            "y": 139.66381072680196
+          },
+          "nodeIndex": "SC_SECMASTER_SECURITY",
+          "nodeLineageTag": "819ecd9c-2593-48fb-9e3c-81367b33f7c3",
+          "size": {
+            "height": 580.41237113402053,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 1237.6690955054291,
+            "y": 568.29260877726153
+          },
+          "nodeIndex": "VINVESTSYSTEM_RECONC",
+          "nodeLineageTag": "0c2d13a8-c22a-49dd-8d84-5a5c12913d7c",
+          "size": {
+            "height": 575.77996715927759,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 2054.2050421801596,
+            "y": 194.82882025161209
+          },
+          "nodeIndex": "SC_INVSYS_SILVER_COMPOUNDED_RETURNS",
+          "nodeLineageTag": "0b2681a2-3b2a-4c16-9d58-442f6ed36522",
+          "size": {
+            "height": 291,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2034.8034463353106,
+            "y": 1020.3566930947899
+          },
+          "nodeIndex": "SC_INVSYS_SILVER_FACTPORTFOLIOVALUE_NETRETURNADJUSTMENTS",
+          "nodeLineageTag": "b4cabedc-0bd1-4658-af79-836f3fbaf04a",
+          "size": {
+            "height": 124,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 2042.4372518171931,
+            "y": 697.69129366228731
+          },
+          "nodeIndex": "SC_INVSYS_SILVER_PERFORMANCE",
+          "nodeLineageTag": "ea1e45e1-32e1-477a-bda0-4a7d6fb7843c",
+          "size": {
+            "height": 230.6638107268019,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 2031.8739749474007,
+            "y": 1316.8768070086894
+          },
+          "nodeIndex": "SC_APX_2_PERFORMANCEHISTORYPERIOD",
+          "nodeLineageTag": "dc84adc4-dff6-4e66-90eb-0399cfb60df0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 2528.4794173405967,
+            "y": 1228.8872011957214
+          },
+          "nodeIndex": "Issuer",
+          "size": {
+            "height": 533.32385018832338,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2896.27973693975,
+            "y": 1228.8872011957214
+          },
+          "nodeIndex": "Security",
+          "size": {
+            "height": 400.964388971925,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 516.24849808519014
+          },
+          "nodeIndex": "Changes of dividend_payment_date1 column",
+          "nodeLineageTag": "98ded322-d857-4421-bd31-f8e95364e53a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 49.800558628130922,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": true,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [],
+      "name": "Layout 1",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

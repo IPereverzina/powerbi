@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Global Securities Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e2702a36-dec3-4626-84af-669d97bf854f"
+  }
+}

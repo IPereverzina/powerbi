@@ -1,0 +1,201 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "c99331a5d88325523568",
+  "position": {
+    "x": 1038.255033557047,
+    "y": 111.81208053691275,
+    "z": 5000,
+    "height": 91.845637583892625,
+    "width": 1315.7885906040269,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "ACTION_ID"
+                }
+              },
+              "queryRef": "CountNonNull(Changes of dividend_payment_date1 column.ACTION_ID)",
+              "nativeQueryRef": "ACTION ID",
+              "displayName": "ACTION ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "SECURITY_ID"
+                }
+              },
+              "queryRef": "Changes of dividend_payment_date1 column.SECURITY_ID",
+              "nativeQueryRef": "SECURITY ID",
+              "displayName": "SECURITY ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "COMPANY_IDENTIFIER"
+                }
+              },
+              "queryRef": "Changes of dividend_payment_date1 column.COMPANY_IDENTIFIER",
+              "nativeQueryRef": "COMPANY IDENTIFIER",
+              "displayName": "COMPANY IDENTIFIER"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "COMPANY_NAME"
+                }
+              },
+              "queryRef": "Changes of dividend_payment_date1 column.COMPANY_NAME",
+              "nativeQueryRef": "COMPANY NAME",
+              "displayName": "COMPANY NAME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "PREV_DIVIDEND_PAYMENT_DATE1"
+                }
+              },
+              "queryRef": "Changes of dividend_payment_date1 column.PREV_DIVIDEND_PAYMENT_DATE1",
+              "nativeQueryRef": "PREV_DIVIDEND_PAYMENT_DATE1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Changes of dividend_payment_date1 column"
+                    }
+                  },
+                  "Property": "CURRENT_DIVIDEND_PAYMENT_DATE1"
+                }
+              },
+              "queryRef": "Changes of dividend_payment_date1 column.CURRENT_DIVIDEND_PAYMENT_DATE1",
+              "nativeQueryRef": "CURRENT_DIVIDEND_PAYMENT_DATE1"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'The dividend payment date has been changed within the last 24 hours for the following securities'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter1a70bfb1af8cfca2c60a",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Changes of dividend_payment_date1 column"
+              }
+            },
+            "Property": "ShowCondition"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Changes of dividend_payment_date1 column",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "c"
+                        }
+                      },
+                      "Property": "ShowCondition"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "1L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  },
+  "isHidden": true
+}

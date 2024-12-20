@@ -1,0 +1,122 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "54e556338816b0186e7a",
+  "position": {
+    "x": 712.24489795918373,
+    "y": 65.3061224489796,
+    "z": 3000,
+    "height": 165.30612244897961,
+    "width": 397.9591836734694,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Issuer"
+                    }
+                  },
+                  "Property": "LASTRECOMMENDATIONOFCURRENTANALYSTDATE"
+                }
+              },
+              "queryRef": "Issuer (2).LASTRECOMMENDATIONOFCURRENTANALYSTDATE",
+              "nativeQueryRef": "Last Recommendation Of Current Analyst Date",
+              "active": true,
+              "displayName": "Last Recommendation Of Current Analyst Date"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Issuer"
+                  }
+                },
+                "Property": "LASTRECOMMENDATIONOFCURRENTANALYSTDATE"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "endDate": {
+              "expr": {
+                "Literal": {
+                  "Value": "datetime'2024-10-28T00:00:00'"
+                }
+              }
+            },
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Between'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "i1",
+                    "Entity": "Issuer",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Comparison": {
+                        "ComparisonKind": 3,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "i1"
+                              }
+                            },
+                            "Property": "LASTRECOMMENDATIONOFCURRENTANALYSTDATE"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "datetime'2024-10-29T00:00:00'"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

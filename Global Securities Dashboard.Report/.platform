@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Global Securities Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5d173ecd-7435-48e2-b591-c0e4768d210f"
+  }
+}

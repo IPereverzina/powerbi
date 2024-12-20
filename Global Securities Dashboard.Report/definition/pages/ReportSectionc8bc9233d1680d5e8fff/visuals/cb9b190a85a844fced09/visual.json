@@ -1,0 +1,2237 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "cb9b190a85a844fced09",
+  "position": {
+    "x": 27.881094331980115,
+    "y": 247.44471219632354,
+    "z": 4000,
+    "height": 1057.7390162194956,
+    "width": 2326.3288083245911,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "CORPACTION_TYPE_NAME"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.CORPACTION_TYPE_NAME",
+              "nativeQueryRef": "CorpAction Type1",
+              "displayName": "CorpAction Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "COMPANY_IDENTIFIER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.COMPANY_IDENTIFIER",
+              "nativeQueryRef": "Company Identifier",
+              "displayName": "Company Identifier"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "COMPANY_NAME"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.COMPANY_NAME",
+              "nativeQueryRef": "Company Name",
+              "displayName": "Company Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "SECURITY_ID"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.SECURITY_ID",
+              "nativeQueryRef": "Security ID",
+              "displayName": "Security ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "BLOOMBERG_SECURITY_UNIQUE_ID"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.BLOOMBERG_SECURITY_UNIQUE_ID",
+              "nativeQueryRef": "Bloomberg Security Unique ID",
+              "displayName": "Bloomberg Security Unique ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "ANNOUNCE_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.ANNOUNCE_DATE",
+              "nativeQueryRef": "Corporate Action Announcement Date",
+              "displayName": "Corporate Action Announcement Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "EFFECTIVE_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.EFFECTIVE_DATE",
+              "nativeQueryRef": "Corporate Action Effective Date",
+              "displayName": "Corporate Action Effective Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_RECORD_DATE1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_RECORD_DATE1",
+              "nativeQueryRef": "Dividend Record Date1",
+              "displayName": "Dividend Record Date1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_PAYMENT_DATE1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_PAYMENT_DATE1",
+              "nativeQueryRef": "Dividend Payment Date1",
+              "displayName": "Dividend Payment Date1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_FREQUENCY"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_FREQUENCY",
+              "nativeQueryRef": "Dividend Frequency",
+              "displayName": "Dividend Frequency"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "TAX_AMOUNT"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.TAX_AMOUNT",
+              "nativeQueryRef": "Tax Amount",
+              "displayName": "Tax Amount"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_TYPE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_TYPE",
+              "nativeQueryRef": "Dividend Type",
+              "displayName": "Dividend Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DECLARED_CASH_DIVIDEND"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DECLARED_CASH_DIVIDEND",
+              "nativeQueryRef": "Declared Cash Dividend",
+              "displayName": "Declared Cash Dividend"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "OLD_CUSIP"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.OLD_CUSIP",
+              "nativeQueryRef": "Old Cusip",
+              "displayName": "Old Cusip"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "NEW_CUSIP"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.NEW_CUSIP",
+              "nativeQueryRef": "New Cusip",
+              "displayName": "New Cusip"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "OLD_ISIN"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.OLD_ISIN",
+              "nativeQueryRef": "Old ISIN",
+              "displayName": "Old ISIN"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "NEW_ISIN"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.NEW_ISIN",
+              "nativeQueryRef": "New ISIN",
+              "displayName": "New ISIN"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "OLD_SEDOL"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.OLD_SEDOL",
+              "nativeQueryRef": "Old Sedol",
+              "displayName": "Old Sedol"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "NEW_SEDOL"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.NEW_SEDOL",
+              "nativeQueryRef": "New Sedol",
+              "displayName": "New Sedol"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "OLD_EXCHANGE_CODE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.OLD_EXCHANGE_CODE",
+              "nativeQueryRef": "Old Exchange Code",
+              "displayName": "Old Exchange Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "NEW_EXCHANGE_CODE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.NEW_EXCHANGE_CODE",
+              "nativeQueryRef": "New Exchange Code",
+              "displayName": "New Exchange Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "OLD_TICKER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.OLD_TICKER",
+              "nativeQueryRef": "Old Ticker",
+              "displayName": "Old Ticker"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "NEW_TICKER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.NEW_TICKER",
+              "nativeQueryRef": "New Ticker",
+              "displayName": "New Ticker"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "EXCHANGECODE1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.EXCHANGECODE1",
+              "nativeQueryRef": "Exchange Code1",
+              "displayName": "Exchange Code1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "SECURITYTICKER1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.SECURITYTICKER1",
+              "nativeQueryRef": "Security Ticker1",
+              "displayName": "Security Ticker1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "SECURITY_TYPE_CODE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.SECURITY_TYPE_CODE",
+              "nativeQueryRef": "Security Type Code",
+              "displayName": "Security Type Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "TRANSACTION_TERMS1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.TRANSACTION_TERMS1",
+              "nativeQueryRef": "Transaction Terms1",
+              "displayName": "Transaction Terms1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "RECORD_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.RECORD_DATE",
+              "nativeQueryRef": "Record Date",
+              "displayName": "Record Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PAYMENT_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PAYMENT_DATE",
+              "nativeQueryRef": "Payment Date",
+              "displayName": "Payment Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "STOCK_SPLIT_TYPE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.STOCK_SPLIT_TYPE",
+              "nativeQueryRef": "Stock Split Type",
+              "displayName": "Stock Split Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PRICE_ADJUSTMENT_FACTOR1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_FACTOR1",
+              "nativeQueryRef": "Price Adjustment Factor1",
+              "displayName": "Price Adjustment Factor1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PRICE_ADJUSTMENT_DATE1"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_DATE1",
+              "nativeQueryRef": "Price Adjustment Date1",
+              "displayName": "Price Adjustment Date1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "FRACTIONAL_SHARES_ADJUSTED_METHOD"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.FRACTIONAL_SHARES_ADJUSTED_METHOD",
+              "nativeQueryRef": "Fractional Shares Adjusted Method",
+              "displayName": "Fractional Shares Adjusted Method"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "EXCHANGE_CODE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.EXCHANGE_CODE",
+              "nativeQueryRef": "Exchange Code",
+              "displayName": "Exchange Code"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "SECURITY_TICKER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.SECURITY_TICKER",
+              "nativeQueryRef": "Security Ticker",
+              "displayName": "Security Ticker"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DELIST_REASON"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DELIST_REASON",
+              "nativeQueryRef": "Delist Reason",
+              "displayName": "Delist Reason"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_RECORD_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_RECORD_DATE",
+              "nativeQueryRef": "Dividend Record Date",
+              "displayName": "Dividend Record Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DIVIDEND_PAYMENT_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DIVIDEND_PAYMENT_DATE",
+              "nativeQueryRef": "Dividend Payment Date",
+              "displayName": "Dividend Payment Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "STOCK_DIVIDEND_PERCENT"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.STOCK_DIVIDEND_PERCENT",
+              "nativeQueryRef": "Stock Dividend Percent",
+              "displayName": "Stock Dividend Percent"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "STOCK_DIVIDEND_TYPE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.STOCK_DIVIDEND_TYPE",
+              "nativeQueryRef": "Stock Dividend Type",
+              "displayName": "Stock Dividend Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PAID_OUT_SECURITY_TICKER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PAID_OUT_SECURITY_TICKER",
+              "nativeQueryRef": "Paid Out Security Ticker",
+              "displayName": "Paid Out Security Ticker"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PRICE_ADJUSTMENT_FACTOR"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_FACTOR",
+              "nativeQueryRef": "Price Adjustment Factor",
+              "displayName": "Price Adjustment Factor"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "PRICE_ADJUSTMENT_DATE"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_DATE",
+              "nativeQueryRef": "Price Adjustment Date",
+              "displayName": "Price Adjustment Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "EX_DIVIDEND_DATE_INDICATOR"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.EX_DIVIDEND_DATE_INDICATOR",
+              "nativeQueryRef": "Ex-Dividend Date Indicator",
+              "displayName": "Ex-Dividend Date Indicator"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "DISTRIBUTION_AMOUNT_STATUS"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.DISTRIBUTION_AMOUNT_STATUS",
+              "nativeQueryRef": "Distribution Amount Status",
+              "displayName": "Distribution Amount Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "TRANSACTION_TERMS"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.TRANSACTION_TERMS",
+              "nativeQueryRef": "Transaction Terms",
+              "displayName": "Transaction Terms"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "TERMS_NUMERIC_FORMAT"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.TERMS_NUMERIC_FORMAT",
+              "nativeQueryRef": "Terms Numeric Format",
+              "displayName": "Terms Numeric Format"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "COST_TO_SHAREHOLDER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.COST_TO_SHAREHOLDER",
+              "nativeQueryRef": "Cost to Shareholder",
+              "displayName": "Cost to Shareholder"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "ADJUSTMENT_FACTOR"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.ADJUSTMENT_FACTOR",
+              "nativeQueryRef": "Adjustment Factor",
+              "displayName": "Adjustment Factor"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "COMPANY_TICKER"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.COMPANY_TICKER",
+              "nativeQueryRef": "Company Ticker",
+              "displayName": "Company Ticker"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "FRACTIONAL_SHARE_TREATMENT"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.FRACTIONAL_SHARE_TREATMENT",
+              "nativeQueryRef": "Fractional Share Treatment",
+              "displayName": "Fractional Share Treatment"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VCORPORATE_ACTIONS"
+                    }
+                  },
+                  "Property": "TERMS_DESCRIPTION"
+                }
+              },
+              "queryRef": "VCORPORATE_ACTIONS.TERMS_DESCRIPTION",
+              "nativeQueryRef": "Terms Description",
+              "displayName": "Terms Description"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "VCORPORATE_ACTIONS"
+                  }
+                },
+                "Property": "ANNOUNCE_DATE"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.78208600587166D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.COMPANY_NAME"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "133.49122526419086D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.ANNOUNCE_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "131.10526496193057D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.BLOOMBERG_SECURITY_UNIQUE_ID"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "98.92982728312955D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.COMPANY_IDENTIFIER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "86.68421513964893D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.SECURITY_ID"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "120.56141978822221D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.EFFECTIVE_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "94.36841683540447D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_RECORD_DATE1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "105.1227928739788D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_PAYMENT_DATE1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "82.38597387957668D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_FREQUENCY"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "100.12276173868091D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DECLARED_CASH_DIVIDEND"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "54.47058808022786D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.OLD_ISIN"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "56.123892088096774D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.NEW_ISIN"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "97.92983338775818D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.OLD_EXCHANGE_CODE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "104.6841829928592D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.NEW_EXCHANGE_CODE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "45.175438596491226D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.OLD_CUSIP"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "49.68422192757838D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.NEW_CUSIP"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "66.92982535238573D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_TYPE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "66.9649186817959D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.TAX_AMOUNT"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "53.21051939361709D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.OLD_SEDOL"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63.47367952676028D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.NEW_SEDOL"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "45.43859743051945D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.OLD_TICKER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "60.21053315654702D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.NEW_TICKER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.92985127900059D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.EXCHANGECODE1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "66.15787022405561D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.SECURITYTICKER1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.140327394895D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.SECURITY_TYPE_CODE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "84.4034881075076D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.TRANSACTION_TERMS1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "61.947372427186345D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.RECORD_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64.9298297325553D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PAYMENT_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "69.66667264438912D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.STOCK_SPLIT_TYPE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "114.14033111045015D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_FACTOR1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "120.92981961909075D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_DATE1"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "129.2806602004603D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.FRACTIONAL_SHARES_ADJUSTED_METHOD"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.94737528438768D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.EXCHANGE_CODE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64.42106434336445D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.SECURITY_TICKER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "65.43859612594807D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DELIST_REASON"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "95.14034006520279D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_RECORD_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "96.36841178579516D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_PAYMENT_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "100.38597812669174D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.STOCK_DIVIDEND_PERCENT"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "94.9270124788612D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.STOCK_DIVIDEND_TYPE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "102.67862080608317D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PAID_OUT_SECURITY_TICKER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "121.17544642184416D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_FACTOR"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "117.43860880784597D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.PRICE_ADJUSTMENT_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "107.59647780564848D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.EX_DIVIDEND_DATE_INDICATOR"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "100.82457876117043D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.DISTRIBUTION_AMOUNT_STATUS"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "84.42101750527983D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.TRANSACTION_TERMS"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "100.14033962526167D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.TERMS_NUMERIC_FORMAT"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "98.1754226285286D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.COST_TO_SHAREHOLDER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "82.15788329958426D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.ADJUSTMENT_FACTOR"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "76.92982563487938D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.COMPANY_TICKER"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "118.82095723113399D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.FRACTIONAL_SHARE_TREATMENT"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "82.66667574378211D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "VCORPORATE_ACTIONS.TERMS_DESCRIPTION"
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "COMPANY_IDENTIFIER"
+                                    }
+                                  },
+                                  "Function": 3
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 5
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.COMPANY_IDENTIFIER"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "COMPANY_NAME"
+                                    }
+                                  },
+                                  "Function": 3
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 5
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.COMPANY_NAME"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "SECURITY_ID"
+                                    }
+                                  },
+                                  "Function": 3
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 5
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.SECURITY_ID"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "BLOOMBERG_SECURITY_UNIQUE_ID"
+                                    }
+                                  },
+                                  "Function": 3
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 5
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.BLOOMBERG_SECURITY_UNIQUE_ID"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_FREQUENCY"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.TAX_AMOUNT"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_TYPE"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.DECLARED_CASH_DIVIDEND"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.OLD_CUSIP"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.NEW_CUSIP"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.OLD_ISIN"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.NEW_ISIN"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.OLD_SEDOL"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.NEW_SEDOL"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "ANNOUNCE_DATE"
+                                    }
+                                  },
+                                  "Function": 5
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.ANNOUNCE_DATE"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "EFFECTIVE_DATE"
+                                    }
+                                  },
+                                  "Function": 5
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.EFFECTIVE_DATE"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "DIVIDEND_RECORD_DATE1"
+                                    }
+                                  },
+                                  "Function": 5
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_RECORD_DATE1"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "DIVIDEND_PAYMENT_DATE1"
+                                    }
+                                  },
+                                  "Function": 5
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.DIVIDEND_PAYMENT_DATE1"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "VCORPORATE_ACTIONS"
+                                        }
+                                      },
+                                      "Property": "CORPACTION_TYPE_NAME"
+                                    }
+                                  },
+                                  "Function": 3
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 5
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#efb5b9'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "VCORPORATE_ACTIONS.CORPACTION_TYPE_NAME"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
